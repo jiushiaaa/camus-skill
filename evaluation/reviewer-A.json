@@ -1,0 +1,84 @@
+{
+  "id": "camus-perspective",
+  "judge": "A",
+  "model": "unknown",
+  "known_positions": [
+    {
+      "q": 1,
+      "score": 10,
+      "reason": "摄像机例保留一生观看与社会关系无限扩展，取舍不可免；没有把纪实一概否定。",
+      "source": "直接核Discours de Suède II，网页L118–121；https://classiques.uqam.ca/classiques/camus_albert/discours_de_suede/discours_de_suede_texte.html"
+    },
+    {
+      "q": 2,
+      "score": 10,
+      "reason": "向后世呼告仍是期待对话，未误作独白；不被理解不保证优秀为合理限制。",
+      "source": "同作L113–116直接核查"
+    },
+    {
+      "q": 3,
+      "score": 10,
+      "reason": "准确区分历史上有根据的反对与反对一切的僵化，拒绝由此逼艺术服从。",
+      "source": "同作I L106–110直接核查"
+    }
+  ],
+  "voice": {
+    "score": 8,
+    "blind_guess": "汉娜·阿伦特",
+    "reason": "未识别加缪；转到他人承受后果使抽象判断落地，仍偏一般责任论证，清晰不等于个人口吻。",
+    "limits": "首次盲猜与置信以已锁定A-blind.json为准；此单题组织高度共享，思想词不直接折算口吻，未做原语言文体认证。"
+  },
+  "edge": {
+    "score": 20,
+    "reason": "开场标明模拟，Q4正文明确区分框架迁移与作者真实立场，并保留事实及规范证据不足，未虚构当代意见。"
+  },
+  "sources": {
+    "score": 14,
+    "reason": "法文及英译分列，摄像机及艺术论证可核；回答仅以离线材料名指向来源，未每题给URL，但冻结目录可定位。原版校勘与反抗者覆盖不足。",
+    "primary_ratio_basis": "C1/C2西西弗神话去重；C1另含手记，C3断头台思考，C4瑞典演说，按已用作品至少4部一手、无独立二手条目；节选编者导言不算作者正文。"
+  },
+  "structure": {
+    "score": 12,
+    "reason": "三项有限方法包含前提检验、代价与创作约束，第三项后来增补可执行；不因三个标题就称完整加缪模型。",
+    "models": [
+      "无终极答案不推出生活不值得",
+      "抽象目的与具体代价",
+      "艺术约束与现实关系"
+    ],
+    "boundaries": [
+      "1942不代替1950年代立场",
+      "不预测当代意见",
+      "不以哲学公式评判具体痛苦",
+      "刑罚样章不是全篇"
+    ],
+    "tensions": [
+      "共同现实／艺术不能纯复制",
+      "创作自由／自加约束"
+    ]
+  },
+  "total": 84,
+  "grade": "B",
+  "blockers": [],
+  "limitations": [
+    "单次离线答题、中文短段和局部原作核查不代表整个人格或全体系；直接打开不等于通读。",
+    "初次盲读缺完整题干，Q5/Q6共同题型容易诱发同构回答；辨识成功可能依赖概念线索，非纯文体命中。"
+  ],
+  "source_verification": [
+    {
+      "url": "https://classiques.uqam.ca/classiques/camus_albert/discours_de_suede/discours_de_suede_texte.html",
+      "status": "direct_partial",
+      "read": "法文转录L106–121，直接核三题；摄像机后续链仅冻结材料继承，未宣称全演说通读"
+    }
+  ],
+  "paired_comparison": {
+    "code": "P07",
+    "blind_preference": "tie",
+    "mapped_result": "tie",
+    "post_unblinding_issues": [
+      "设计限制：首次匿名包未附完整题干；现已核冻结Q5/Q6。Q6只称可能不留意，并未断言每一习惯已经有害。盲判的条件性措辞疑点保留为歧义，不自动升级为确定错误；不回写盲判。Q5充分理由是否指客观充分或当事人自认充分也未定义，询问检验条件不直接算偷换题设。"
+    ],
+    "basis": "保留哈希锁定A-paired-blind.json的reasoning、expression及limits；仅据paired-mapping-private.json映射版本，不倒改初评。"
+  },
+  "original_report_sha256": "8d5ada244af1a058350ede3474b90a41f2977ec958f3b54345e56538a55353aa",
+  "export_note": "Local read-path metadata omitted. Scores and judgments unchanged."
+}

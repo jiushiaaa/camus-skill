@@ -1,0 +1,122 @@
+{
+  "id": "camus-perspective",
+  "expression": {
+    "sample_method": "本轮未获得可靠DOM统计语料；不把web行数当原始段落",
+    "sample_count": 0,
+    "metrics": {},
+    "source_language": "fr",
+    "samples": [],
+    "limitations": [
+      "只有连续语义实读，未完成20段可计算抽样",
+      "HTTP此次得到验证页面而非原文；web可读，但未取得可靠可计算DOM段落，20段统计未完成。"
+    ],
+    "style_rules": [
+      "提出看似可接受的要求，再用具体试验显示其极限。",
+      "让让步、反问和结论形成可追踪的论证，而不是堆积意象。",
+      "用一处具体比喻检验抽象口号，再回到承受后果的人。"
+    ],
+    "anti_patterns": [
+      "不用日光海风制造作者标签。",
+      "不拼名句。",
+      "不把所有现实冲突都裁成中庸。"
+    ],
+    "measurement_definition": {
+      "characters": "规范化字符串Python len，包括空格和标点",
+      "words": "Unicode字母词，保留内部法语撇号；数字不计",
+      "sentence_terminators": "正则[.!?]+组数，包括缩写句点，因此仅句界代理",
+      "question_ratio": "问号数/句末标点组数，非人工疑问句率",
+      "normalization": "BeautifulSoup get_text空格连接，连续空白压为一空格；SKS去script/apparatus-criticus/symbol/pagination",
+      "stored_text": "只存摘要/定位/哈希/计数，不存抽样原文"
+    }
+  },
+  "date": "2026-10-13",
+  "role": "独立研究与出题；非评分，不授A/B等级",
+  "coverage": [
+    {
+      "work_period": "1942 西西弗神话",
+      "read": "既有论证选段及末篇英译",
+      "unread": "未全篇",
+      "scope_note": "既有记录来自canonical笔记；本轮新增实读另列，不声称全集完成"
+    },
+    {
+      "work_period": "1951 反抗者",
+      "read": "未取得足够正文",
+      "unread": "完整反抗/限度论",
+      "scope_note": "既有记录来自canonical笔记；本轮新增实读另列，不声称全集完成"
+    },
+    {
+      "work_period": "1957 断头台",
+      "read": "既有出版社英译样章3–4页",
+      "unread": "全篇法文未读",
+      "scope_note": "既有记录来自canonical笔记；本轮新增实读另列，不声称全集完成"
+    },
+    {
+      "work_period": "1957 瑞典演说",
+      "read": "既有12/10与12/14 I/III选段；本轮12/14 II网页113–136连续",
+      "unread": "全篇未全部精读；殖民争议另缺",
+      "scope_note": "既有记录来自canonical笔记；本轮新增实读另列，不声称全集完成"
+    }
+  ],
+  "primary_additions": [
+    {
+      "title": "瑞典演说1957-12-14 II",
+      "url": "https://classiques.uqam.ca/classiques/camus_albert/discours_de_suede/discours_de_suede_texte.html",
+      "locator": "UQAC法文，web正文113–136行，原书41–51页标记",
+      "reading": "continuous primary text read",
+      "finding": "纯复制现实无法避免选择；未来完满社会的承诺不能自行保证艺术与现实沟通。补艺术约束程序中的选择机制，但第二独立艺术外领域仍不足。"
+    }
+  ],
+  "model_audit": [
+    {
+      "program": "无最终答案非生活无值",
+      "domain_1": "荒诞与生存：C1/C2同书",
+      "domain_2": "其他领域相同推理未实证",
+      "cross_domain_assessment": "单域",
+      "generation_evidence": "本轮未执行新的独立行为测试；已有测试文件不因静态存在而重报通过",
+      "distinctiveness_evidence": "本轮只有概念区分与误用边界；邻近作者盲比较未执行",
+      "promotion": "不升级为三重验证成熟模型"
+    },
+    {
+      "program": "目的与具体后果",
+      "domain_1": "刑罚：C3样章",
+      "domain_2": "艺术/政治承诺：C4 II134–136",
+      "cross_domain_assessment": "双领域候选已有出处；仍需完整刑罚论证",
+      "generation_evidence": "本轮未执行新的独立行为测试；已有测试文件不因静态存在而重报通过",
+      "distinctiveness_evidence": "本轮只有概念区分与误用边界；邻近作者盲比较未执行",
+      "promotion": "不升级为三重验证成熟模型"
+    },
+    {
+      "program": "艺术约束与现实",
+      "domain_1": "艺术表现：C4 II117–129",
+      "domain_2": "外部命令/自律：C4 III；仍同艺术领域",
+      "cross_domain_assessment": "有内部区分度，不能升级成普遍政治模型",
+      "generation_evidence": "本轮未执行新的独立行为测试；已有测试文件不因静态存在而重报通过",
+      "distinctiveness_evidence": "本轮只有概念区分与误用边界；邻近作者盲比较未执行",
+      "promotion": "不升级为三重验证成熟模型"
+    }
+  ],
+  "tensions": [
+    {
+      "pair": "艺术要向共同现实说话／纯复制现实不可能",
+      "primary_anchor": "瑞典演说II113–123；构成创作选择的张力",
+      "interpretation": "有限内在张力或条件/层级差别；不是未解决形式自相矛盾"
+    },
+    {
+      "pair": "追求解放正义／取消创作自由会损害表达",
+      "primary_anchor": "瑞典演说II130–136及III既读范围；不等于作者已给每一政治冲突定解",
+      "interpretation": "有限内在张力或条件/层级差别；不是未解决形式自相矛盾"
+    }
+  ],
+  "remaining_gaps": [
+    "HTTP此次得到验证页面而非原文；web可读，但未取得可靠可计算DOM段落，20段统计未完成。",
+    "未复制受版权保护演说全文；引用只定位与短释。",
+    "反抗者和殖民争议材料仍缺。"
+  ],
+  "mode_policy": {
+    "default": "中性思想分析",
+    "optional_voice": "仅用户显式选择人物表达时读取表达层；第三人称/框架推演不伪装真实本人",
+    "textgame": "文游不自动加载表达层"
+  },
+  "score": null,
+  "source_classification": "新增依据全部为原作原语电子转录；转载平台本身不等于学术校勘权威。旧证据译文/二手身份保留来源目录标签。"
+}

@@ -1,0 +1,97 @@
+{
+  "id": "camus-perspective",
+  "known_positions": [
+    {
+      "q": 1,
+      "score": 10,
+      "reason": "终生观看与他人生命扩展准确。",
+      "source": "Discours de Suède II118–123，直接核"
+    },
+    {
+      "q": 2,
+      "score": 10,
+      "reason": "后世呼告仍是对话，不被理解不担保优秀。",
+      "source": "同作115–116，直接核"
+    },
+    {
+      "q": 3,
+      "score": 10,
+      "reason": "具体反对不推出反对一切，保留现实与选择双端。",
+      "source": "同作106–110及142–145，直接核"
+    }
+  ],
+  "source_audit": [
+    {
+      "url": "https://classiques.uqam.ca/classiques/camus_albert/discours_de_suede/discours_de_suede_texte.html",
+      "status": "direct_read",
+      "scope": "法文106–146，非全篇"
+    }
+  ],
+  "judge": "B",
+  "model": "unknown",
+  "voice": {
+    "score": 7,
+    "reason": "后果关切可见，但盲猜阿伦特，加缪仅备选；没有持续具体意象与简洁反问推进。",
+    "blind_guess": {
+      "code": "N17",
+      "guess": "阿伦特（低置信猜测）",
+      "confidence": 0.28,
+      "alternatives": [
+        "波伏娃",
+        "加缪"
+      ],
+      "formal_features": "从时间和可推翻条件入手，让步后加入他人承受后果，再要求具体对照；伦理关切藏在中段。",
+      "content_clues": "拒绝现实、实际后果、别人承受代价，可能关联政治判断和责任。",
+      "limits": "后果由他人承受是追加情形，并非专属人物线索；不能可靠认人。"
+    },
+    "limits": "后果由他人承受是追加情形，并非专属人物线索；不能可靠认人。 正式只用Q5，Q6不加分。"
+  },
+  "sources": {
+    "score": 14,
+    "reason": "法文、英译和样章分清，演说直接核查支持题答，范围窄但透明。",
+    "primary_ratio_basis": "西西弗神话两入口去重；手记、断头台反思、瑞典演说另计，共4部作者作品，编辑导言不充一手；超过50%。"
+  },
+  "structure": {
+    "score": 12,
+    "reason": "三个入口有前提检查与停止条件，刑罚仅样章开头，不足以证明跨域成熟。",
+    "models": [
+      "荒诞推论",
+      "抽象目的与具体代价",
+      "艺术约束来源"
+    ],
+    "boundaries": [
+      "痛苦者非公式例子",
+      "转述非独立记录",
+      "不预测现代立场",
+      "阶段不可直接等同"
+    ],
+    "tensions": [
+      "共同现实／无法纯复制",
+      "正义解放／创作自由"
+    ]
+  },
+  "edge": {
+    "score": 20,
+    "reason": "统一开场说明人物模拟；Q4正文明确为当代迁移或推断，保留未知和所缺依据，没有伪装成作者历史表态。"
+  },
+  "paired_comparison": {
+    "code": "P07",
+    "blind_preference": "second",
+    "mapped_preference": "r3_better",
+    "reasoning": "两者都不主张废除所有习惯；second把停顿的目的具体化为看今天有什么不同，较first单问为何还这样做更贴近当下变化。",
+    "expression": "second从动作重复到停顿观察再到判断权的推进清楚；末句虽属概括，也有前文支撑。first的双重否定结尾较泛。",
+    "post_unblinding_issues": [
+      "Q6为可能，R3若每天只剩重复保留条件；映射r3_better不表示单变量归因。"
+    ],
+    "limits": "优势小，主要是例行观察的明确程度，不说明人物辨识度有所提高。 R2为Q5、R3为Q6，不是单变量实验。"
+  },
+  "blockers": [],
+  "limitations": [
+    "中文短样本及少数题，不能代表全书、全时期或人类专家认证。",
+    "原作仅核查source_audit所列位置；其余研究阅读记录为继承材料，不声称本评审通读。"
+  ],
+  "total": 83,
+  "grade": "B",
+  "original_report_sha256": "e9625a5b3bf326ac68a366f3ab1acea8d684bbe405b2ad1a658a25f61d237a97",
+  "export_note": "Local read-path metadata omitted. Scores and judgments unchanged."
+}

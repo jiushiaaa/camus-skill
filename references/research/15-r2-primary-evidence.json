@@ -1,0 +1,28 @@
+{
+  "sources": [
+    {
+      "url": "https://classiques.uqam.ca/classiques/camus_albert/discours_de_suede/discours_de_suede_texte.html",
+      "read": "web128-151; print48-57 markers",
+      "type": "author_primary_French_university_transcription",
+      "paragraphs": null
+    },
+    {
+      "url": "https://cdn.penguin.co.uk/dam-assets/books/9780241475225/9780241475225-sample.pdf",
+      "read": "copyright + PDF7-8 print3-4; last paragraph incomplete",
+      "type": "author_primary_official_publisher_English_sample",
+      "paragraphs": null
+    }
+  ],
+  "source_catalog_patch": "See source catalog in this skill.",
+  "date": "2026-10-13",
+  "cross_domain_evidence": "See 15-r2-primary-evidence.md; no automatic upgrade.",
+  "id": "camus-perspective",
+  "note_file": "15-r2-primary-evidence.md",
+  "persona_patch": "See ../persona-expression.md; explicit mode only.",
+  "gaps": [
+    "20 paragraphs unverified",
+    "Rebel failed UQAM0lines letankerror",
+    "Nobel French403 Englisherror",
+    "penalty full argument still missing"
+  ]
+}

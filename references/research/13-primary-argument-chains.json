@@ -1,0 +1,292 @@
+{
+  "id": "camus-perspective",
+  "expression": {
+    "source_language": "fr",
+    "url": "https://classiques.uqam.ca/classiques/camus_albert/discours_de_suede/discours_de_suede_texte.html",
+    "version": "UQAC电子版，1957-12-14演说II；网页页标41–49",
+    "sample_method": "替代观测：固定取成功web读取的连续编号文本单元113–132；去页码标记并折叠空白。不宣称原书自然段，不是随机20段，不替代原标准。",
+    "original_paragraph_count_verified": 0,
+    "web_text_unit_count": 20,
+    "metrics": {
+      "characters": 8136,
+      "words": 1360,
+      "punctuation_groups": 70,
+      "question_marks": 5,
+      "first_person_singular": 0,
+      "contrast": 10
+    },
+    "samples": [
+      {
+        "locator": "web line 113",
+        "characters": 317,
+        "words": 59,
+        "punctuation_groups": 3,
+        "question_marks": 0,
+        "first_person_singular": 0,
+        "contrast": 1
+      },
+      {
+        "locator": "web line 114",
+        "characters": 467,
+        "words": 79,
+        "punctuation_groups": 3,
+        "question_marks": 0,
+        "first_person_singular": 0,
+        "contrast": 0
+      },
+      {
+        "locator": "web line 115",
+        "characters": 498,
+        "words": 79,
+        "punctuation_groups": 5,
+        "question_marks": 0,
+        "first_person_singular": 0,
+        "contrast": 0
+      },
+      {
+        "locator": "web line 116",
+        "characters": 490,
+        "words": 86,
+        "punctuation_groups": 5,
+        "question_marks": 0,
+        "first_person_singular": 0,
+        "contrast": 2
+      },
+      {
+        "locator": "web line 117",
+        "characters": 501,
+        "words": 88,
+        "punctuation_groups": 6,
+        "question_marks": 0,
+        "first_person_singular": 0,
+        "contrast": 0
+      },
+      {
+        "locator": "web line 118",
+        "characters": 423,
+        "words": 71,
+        "punctuation_groups": 5,
+        "question_marks": 3,
+        "first_person_singular": 0,
+        "contrast": 2
+      },
+      {
+        "locator": "web line 119",
+        "characters": 430,
+        "words": 71,
+        "punctuation_groups": 3,
+        "question_marks": 0,
+        "first_person_singular": 0,
+        "contrast": 0
+      },
+      {
+        "locator": "web line 120",
+        "characters": 103,
+        "words": 20,
+        "punctuation_groups": 1,
+        "question_marks": 0,
+        "first_person_singular": 0,
+        "contrast": 0
+      },
+      {
+        "locator": "web line 121",
+        "characters": 489,
+        "words": 69,
+        "punctuation_groups": 1,
+        "question_marks": 0,
+        "first_person_singular": 0,
+        "contrast": 1
+      },
+      {
+        "locator": "web line 122",
+        "characters": 474,
+        "words": 81,
+        "punctuation_groups": 5,
+        "question_marks": 0,
+        "first_person_singular": 0,
+        "contrast": 0
+      },
+      {
+        "locator": "web line 123",
+        "characters": 245,
+        "words": 44,
+        "punctuation_groups": 2,
+        "question_marks": 0,
+        "first_person_singular": 0,
+        "contrast": 0
+      },
+      {
+        "locator": "web line 124",
+        "characters": 376,
+        "words": 63,
+        "punctuation_groups": 2,
+        "question_marks": 0,
+        "first_person_singular": 0,
+        "contrast": 1
+      },
+      {
+        "locator": "web line 125",
+        "characters": 474,
+        "words": 82,
+        "punctuation_groups": 4,
+        "question_marks": 1,
+        "first_person_singular": 0,
+        "contrast": 0
+      },
+      {
+        "locator": "web line 126",
+        "characters": 409,
+        "words": 67,
+        "punctuation_groups": 5,
+        "question_marks": 0,
+        "first_person_singular": 0,
+        "contrast": 2
+      },
+      {
+        "locator": "web line 127",
+        "characters": 483,
+        "words": 86,
+        "punctuation_groups": 4,
+        "question_marks": 1,
+        "first_person_singular": 0,
+        "contrast": 0
+      },
+      {
+        "locator": "web line 128",
+        "characters": 501,
+        "words": 77,
+        "punctuation_groups": 4,
+        "question_marks": 0,
+        "first_person_singular": 0,
+        "contrast": 0
+      },
+      {
+        "locator": "web line 129",
+        "characters": 372,
+        "words": 61,
+        "punctuation_groups": 5,
+        "question_marks": 0,
+        "first_person_singular": 0,
+        "contrast": 0
+      },
+      {
+        "locator": "web line 130",
+        "characters": 494,
+        "words": 82,
+        "punctuation_groups": 3,
+        "question_marks": 0,
+        "first_person_singular": 0,
+        "contrast": 0
+      },
+      {
+        "locator": "web line 131",
+        "characters": 273,
+        "words": 44,
+        "punctuation_groups": 3,
+        "question_marks": 0,
+        "first_person_singular": 0,
+        "contrast": 1
+      },
+      {
+        "locator": "web line 132",
+        "characters": 317,
+        "words": 51,
+        "punctuation_groups": 1,
+        "question_marks": 0,
+        "first_person_singular": 0,
+        "contrast": 0
+      }
+    ],
+    "limitations": [
+      "Nobel普通HTTP403；UQAC及候选PDF地址返回验证HTML，无PDF正文，不绕过。",
+      "可核对法文原语、句末代理和词形；原书段落结构未核，因此20段任务仍未完成。",
+      "不能和其他作者的DOM段落统计直接比较；只供同一文本内观察。",
+      "类比及确定性未人工全样本标注，不计算。"
+    ],
+    "style_rules": [
+      "先让步承认诉求，再追问其实现条件。",
+      "用完整的现实主义摄像机思想实验说明选择不可避免。",
+      "对话与理解先于裁断；不拼接招牌名言。"
+    ]
+  },
+  "date": "2026-10-13",
+  "role": "独立研究补证；非评分；不修改已交付research/proposals",
+  "readings": [
+    {
+      "work": "瑞典演说法文重新连续读取",
+      "url": "https://classiques.uqam.ca/classiques/camus_albert/discours_de_suede/discours_de_suede_texte.html",
+      "actual_scope": "成功web输出83–163；核心本轮补读II末137–139，I/II/III其他已读为复读；不报全篇"
+    }
+  ],
+  "argument_chains": [
+    {
+      "topic": "西西弗神话：从无最终意义到行动",
+      "url": "https://ethicsofsuicide.lib.utah.edu/selections/albert-camus/",
+      "locator": "既有C1/C2，确切作品链接见canonical来源目录",
+      "premises": "没有最终答案，与生活不值得这两断言并不等价。",
+      "reasoning": "先显出从前者到后者被省去的价值前提；荒诞涉及人的要求与世界的关系，不等于所有事实都不可知。清醒可以与有限持续行动同时出现。",
+      "limits": "不以哲学公式评价具体人的痛苦，不把本论证当实际危机援助的替代。",
+      "form": "通用章节论证摘要，不按测试题号编排"
+    },
+    {
+      "topic": "瑞典演说I：拒绝怎样变成空洞姿态",
+      "url": "https://classiques.uqam.ca/classiques/camus_albert/discours_de_suede/discours_de_suede_texte.html",
+      "locator": "12月14日I106–110",
+      "premises": "艺术对特定社会有理由的反抗，并不自动支持对任何事物的一概反对。",
+      "reasoning": "当历史上合理的拒绝固化为身份姿态，艺术家可能只为显得受诅咒而反对，继而以为自己能凭空造现实。脱离共同现实的形式实验就失去原先联系人的力量。",
+      "limits": "不要求艺术服从现存社会，也不把幻想等同逃避；须说明拒绝的具体对象与仍保留的现实。",
+      "form": "通用章节论证摘要，不按测试题号编排"
+    },
+    {
+      "topic": "瑞典演说II：共同表达与纯复制的困境",
+      "url": "https://classiques.uqam.ca/classiques/camus_albert/discours_de_suede/discours_de_suede_texte.html",
+      "locator": "II113–129",
+      "premises": "艺术想与更多人沟通，诉诸大家共同生活的现实，这种要求有其理由。",
+      "reasoning": "隐居或不被当代理解的艺术家向后世呼告，仍在寻求对话。若把忠实等同毫无选择的复制，记录一人生涯便需观众付出一生；其生活还嵌在其他人的生活中，范围继续扩大。因此表达必然选择。以未来理想规定何物值得表现，反会排除复杂现实。",
+      "limits": "选择不可免不等于任选都同样好；幻想与纪实均须分别检验其与现实的关系。",
+      "form": "通用章节论证摘要，不按测试题号编排"
+    },
+    {
+      "topic": "瑞典演说II–III：手段代价与自主约束",
+      "url": "https://classiques.uqam.ca/classiques/camus_albert/discours_de_suede/discours_de_suede_texte.html",
+      "locator": "II130–139；III151–162",
+      "premises": "希望未来有正义，不能自行保证牺牲当下表达自由就会得到它。",
+      "reasoning": "先判断行动真实剥夺了什么，再检查所允诺未来能否承担此代价。艺术的共同责任又不取消创作者自己的形式纪律；自加约束使作品成立，不能由此推出外部指挥艺术正当。",
+      "limits": "这不是所有约束必然坏或折中必然对；合作、事实订正与压制必须具体区分。刑罚领域的对应只有既有C3样章，不能报完整反死刑论。",
+      "form": "通用章节论证摘要，不按测试题号编排"
+    }
+  ],
+  "programs": [
+    {
+      "name": "拆开无终极答案与生活无值",
+      "domain_1": "西西弗神话生存问题",
+      "domain_2": "第二原作领域未读",
+      "status": "单域但为独立推论检查",
+      "independence": "审查省略价值前提，不等同后果权衡。",
+      "generation_and_discrimination": "留给后续独立行为测试，不由本文评分"
+    },
+    {
+      "name": "抽象目的对具体后果负责",
+      "domain_1": "断头台开篇C3刑罚",
+      "domain_2": "瑞典演说II130–139艺术政治承诺",
+      "status": "两个领域有依据，刑罚只有开篇，不能夸大充分性",
+      "independence": "输入是高尚目的是否遮蔽实际代价。",
+      "generation_and_discrimination": "留给后续独立行为测试，不由本文评分"
+    },
+    {
+      "name": "创作约束的来源与现实",
+      "domain_1": "瑞典演说II选择；III自律",
+      "domain_2": "艺术外独立领域未证",
+      "status": "同领域有独立程序，未升级跨域",
+      "independence": "输入是选择和约束怎样形成作品，和目的代价审计可产生不同问题。",
+      "generation_and_discrimination": "留给后续独立行为测试，不由本文评分"
+    }
+  ],
+  "remaining_reading": [
+    "原语20自然段仍未核；替代20个web编号文本单元只供局部计数，不报通过。",
+    "第三程序跨域若求一般自由纪律关系，需《反抗者》“反抗与艺术”“正午思想”连续论证；不能把演说一句如同一切自由当第二领域。",
+    "第一程序须检验《反抗者》导论从自杀到杀人问题的论证变化；未读不能说同一荒诞模型直接覆盖政治。"
+  ],
+  "verdict": "至少三条有限独立推理程序可定位；仍有单域条目，不宣称全部达到三重验证。",
+  "score": null
+}
